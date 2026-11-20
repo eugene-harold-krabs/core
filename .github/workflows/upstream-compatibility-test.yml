@@ -1,6 +1,9 @@
 name: Upstream Compatibility Test
 
 on:
+  push:
+    branches:
+      - fix/conventional-channel-notes-compatibility-qualification
   pull_request:
     types:
       - opened
